@@ -38,8 +38,7 @@ COMBATIVIDADE = {
     17: {"segredo": 450, "soro": 138, "ryos": 250000},
     18: {"segredo": 540, "soro": 175, "ryos": 250000},
 }
-OUTROS = {
-    "PADRAO": {
+PADRAO = {
     1: {"segredo": 14, "soro": 4, "ryos": 300000},
     2: {"segredo": 21, "soro": 5, "ryos": 300000},
     3: {"segredo": 28, "soro": 7, "ryos": 300000},
@@ -58,5 +57,6 @@ OUTROS = {
     16: {"segredo": 420, "soro": 115, "ryos": 300000},
     17: {"segredo": 525, "soro": 138, "ryos": 300000},
     18: {"segredo": 630, "soro": 175, "ryos": 300000},
-    }
 }
+
+OUTROS = {"PADRAO": PADRAO}

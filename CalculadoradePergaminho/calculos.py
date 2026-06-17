@@ -18,5 +18,5 @@ def calcular_custo(
     return {
         "segredo": total_segredo * quantidade_pergaminhos,
         "soro": total_soro * quantidade_pergaminhos,
-        "ryos": total_ryos * quantidade_pergaminhos
+        "ryos": total_ryos * quantidade_pergaminhos,
     }
