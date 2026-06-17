@@ -39,6 +39,16 @@ st.markdown(
         }
         .stButton > button:hover { background: rgba(138, 164, 210, 0.18); }
         .pill { color: #b7c7ef; font-size: 0.92rem; }
+        .made-by {
+            position: fixed;
+            right: 12px;
+            bottom: 8px;
+            z-index: 9999;
+            font-size: 0.78rem;
+            color: rgba(255,255,255,0.72);
+            opacity: 0.85;
+            pointer-events: none;
+        }
     </style>
     """,
     unsafe_allow_html=True,
@@ -309,3 +319,5 @@ if st.session_state.pergaminhos_selecionados and st.session_state.get("calcular"
             pacotes_fc = total_geral_segredo // 9
 
             st.metric("📦 Pacotes de Força Necessários", pacotes_fc)
+
+st.markdown("<div class='made-by'>made by xSouza_Sad</div>", unsafe_allow_html=True)
